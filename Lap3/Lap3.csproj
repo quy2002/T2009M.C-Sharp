@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D3259502-D634-4FC5-9900-035F74E72545}</ProjectGuid>
+    <ProjectGuid>{AF09772D-34BE-4954-B0FA-EFA8CE9CD926}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>T2009M</RootNamespace>
-    <AssemblyName>T2009M</AssemblyName>
+    <RootNamespace>Lap3</RootNamespace>
+    <AssemblyName>Lap3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,16 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="lap2\Diamond.cs" />
-    <Compile Include="lap2\Fashion.cs" />
-    <Compile Include="lap1\Product.cs" />
-    <Compile Include="lap3\Cart.cs" />
-    <Compile Include="lap3\Program.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
