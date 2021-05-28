@@ -29,6 +29,24 @@ namespace T2009M
             this.gallery.Add(image);
         }
 
+        public string Name
+        {
+            get => name;
+            set => name = value;
+        }
+
+        public float Price
+        {
+            get => price;
+            set => price = value;
+        }
+
+        public int Quantity
+        {
+            get => quantity;
+            set => quantity = value;
+        }
+
         public void GetInfo()
         {
             Console.WriteLine("id: " + this.id);
@@ -44,6 +62,7 @@ namespace T2009M
             }
 
         }
+
 
         public void NotificationQuantity()
         {
@@ -79,5 +98,6 @@ namespace T2009M
             int n = Convert.ToInt32(Console.ReadLine());
             this.gallery.Remove(this.gallery[n - 1]);
         }
+
     }
 }
