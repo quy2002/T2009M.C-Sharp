@@ -47,7 +47,7 @@
     <Compile Include="lap2\Fashion.cs" />
     <Compile Include="lap1\Product.cs" />
     <Compile Include="lap3\Cart.cs" />
-    <Compile Include="lap4\Program.cs" />
+    <Compile Include="lap5\Program.cs" />
     <Compile Include="lap4\CalcInt.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
